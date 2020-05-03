@@ -1,0 +1,14 @@
+{
+  "name": "sandbox-sls-ws-ddb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "deploy": "sls deploy"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.668.0",
+    "serverless": "^1.69.0"
+  }
+}

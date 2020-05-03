@@ -1,0 +1,3 @@
+export AWS_ACCESS_KEY_ID=xxx
+export AWS_SECRET_ACCESS_KEY=yyy
+export CONNECTION_TABLE_NAME=sandbox-sls-ws-ddb-connection-table

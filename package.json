@@ -5,10 +5,12 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
+    "start": "sls offline",
     "deploy": "sls deploy"
   },
   "devDependencies": {
     "aws-sdk": "^2.668.0",
-    "serverless": "^1.69.0"
+    "serverless": "^1.69.0",
+    "serverless-offline": "^6.1.4"
   }
 }

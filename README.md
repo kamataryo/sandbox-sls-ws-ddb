@@ -10,6 +10,7 @@ $ cd sandbox-sls-ws-ddb
 $ cp .envrc.sample .envrc
 $ vi .envrc # Edit with your AWS Account Access Infomation
 $ yarn
+$ npm start
 ```
 
 ## deploy

@@ -2,6 +2,9 @@ service: sandbox-sls-ws-ddb
 
 frameworkVersion: ">=1.69.0 <2.0.0"
 
+plugins:
+  - serverless-offline
+
 provider:
   name: aws
   runtime: nodejs12.x

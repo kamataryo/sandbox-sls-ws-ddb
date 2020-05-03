@@ -14,7 +14,7 @@ $ yarn
 
 ## deploy
 
-Caution: This create a CloudFormation Stack named `sandbox-sls-ws-ddb` with your AWS Account.
+Caution: It creates a CloudFormation Stack named `sandbox-sls-ws-ddb` with your AWS Account once deployed.
 
 ```shell
 npm run deploy

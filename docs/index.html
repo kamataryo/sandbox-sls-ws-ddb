@@ -12,9 +12,7 @@
     <script>
       const chat = document.getElementById("chat");
       const messages = document.getElementById("messages");
-      const ws = new WebSocket(
-        "wss://5efbpui231.execute-api.ap-northeast-1.amazonaws.com/v1"
-      );
+      const ws = new WebSocket("ws://127.0.0.1:3001");
 
       ws.onerror = console.error;
 
